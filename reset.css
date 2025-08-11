@@ -1,0 +1,27 @@
+/* reset básico */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* evita surpresas com padding/border nas larguras */
+}
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* zera margens mais comuns que atrapalham o layout */
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* utilitários úteis para começar */
+ul { list-style: none; }
+img { display: block; max-width: 100%; height: auto; } /* imagens responsivas */
+a { text-decoration: none; color: inherit; }
+
